@@ -21,6 +21,7 @@
   "homepage": "https://github.com/FractalFraction/kanji#readme",
   "devDependencies": {
     "cypress": "^7.7.0",
+    "cypress-image-snapshot": "^4.0.1",
     "eslint": "^7.30.0",
     "eslint-config-google": "^0.14.0",
     "jasmine-browser-runner": "^0.6.0"

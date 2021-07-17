@@ -34,12 +34,39 @@ http://127.0.0.1:8080. The base url
 ## Requirements
 ```
 As an avid learner of Japanese, 
-So that I can remember the kanji,
-I would like a website that displays information about them
+I want to remember the kanji, 
+So that I can read japanese. 
 ```
 
+## User Stories
+``` 
+As an avid learner of Japanese,
+I want to see the kanji on the page,
+So that I can remember how it looks
 
+As an avid learner of Japanese,
+I want to hear the kanji pronunciation on the page,
+So that I can remember the reading
 
+As an avid learner of Japanese,
+I want to know what words use the kanji,
+So that I can remember related vocabulary
 
+As an avid learner of Japanese,
+I want to know the translation
+So that I can learn the word
+```
 
+## Domain Model
+What is the behaviour of my program? What do I want it to do?
 
+The user will need to make a request to a server to look up some information about the kanji. 
+
+The user will therefore need a feature to search for something.
+
+I will need to create a test to implement a search bar in the program. 
+
+### Feature Test
+
+The feature test should encode the following behaviour:
+User Input: [KanjiName: fire] -> [Image of Kanji], [Sound of Kanji], [Reading of Kanji]
