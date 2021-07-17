@@ -1,0 +1,31 @@
+{
+  "name": "kanji-api",
+  "version": "1.0.0",
+  "description": "practice using third-party apis to display info about kanji",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx jasmine-browser-runner runSpecs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FractalFraction/kanji.git"
+  },
+  "keywords": [
+    "api"
+  ],
+  "author": "Colin Gardiner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FractalFraction/kanji/issues"
+  },
+  "homepage": "https://github.com/FractalFraction/kanji#readme",
+  "devDependencies": {
+    "cypress": "^7.7.0",
+    "eslint": "^7.30.0",
+    "eslint-config-google": "^0.14.0",
+    "jasmine-browser-runner": "^0.6.0"
+  },
+  "dependencies": {
+    "http-serve": "^1.0.1"
+  }
+}
