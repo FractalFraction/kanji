@@ -20,7 +20,7 @@ $ npx jasmine-browser-runner runSpecs
 User interaction feature tests use the Cypress testsing framework in conjunction with http-serve, 
 ```zsh
 $ npx http-serve
-$ npx 
+$ npx cypress open
 ```
 
 Please note that the baseURL in the cypress.json should be set to the http address given by running http serve. For example, by default the port is set to 8080 with http-serve giving
@@ -31,10 +31,12 @@ http://127.0.0.1:8080. The base url
 }
 ```
 
-## Requirement
+## Requirements
+```
 As an avid learner of Japanese, 
 So that I can remember the kanji,
 I would like a website that displays information about them
+```
 
 
 
